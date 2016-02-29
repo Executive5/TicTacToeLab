@@ -1,0 +1,19 @@
+﻿Build started 2/29/2016 4:01:51 PM.
+     1>Project "C:\Users\Travis\Documents\Intro to Software engineering\Second Project\Visual TicTacToe\Visual TicTacToe\Visual TicTacToe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>c:\users\travis\documents\intro to software engineering\second project\visual tictactoe\visual tictactoe\OPlayer.h(265): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\travis\documents\intro to software engineering\second project\visual tictactoe\visual tictactoe\MyForm.h(38): warning C4677: 'win': signature of non-private member contains assembly private type 'winChecker'
+         c:\users\travis\documents\intro to software engineering\second project\visual tictactoe\visual tictactoe\WinConditions.h(13): note: see declaration of 'winChecker'
+     1>c:\users\travis\documents\intro to software engineering\second project\visual tictactoe\visual tictactoe\MyForm.h(42): warning C4677: 'op': signature of non-private member contains assembly private type 'OPlayer'
+         c:\users\travis\documents\intro to software engineering\second project\visual tictactoe\visual tictactoe\OPlayer.h(13): note: see declaration of 'OPlayer'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Travis\Documents\Intro to Software engineering\Second Project\Visual TicTacToe\Debug\Visual TicTacToe.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Visual_TicTacToe.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Travis\Documents\Intro to Software engineering\Second Project\Visual TicTacToe\Debug\Visual TicTacToe.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         Visual TicTacToe.vcxproj -> C:\Users\Travis\Documents\Intro to Software engineering\Second Project\Visual TicTacToe\Debug\Visual TicTacToe.exe
+     1>Done Building Project "C:\Users\Travis\Documents\Intro to Software engineering\Second Project\Visual TicTacToe\Visual TicTacToe\Visual TicTacToe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.00
